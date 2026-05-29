@@ -176,6 +176,8 @@
   .section li{margin-bottom:6px}
   .tip{background:#fff6df;border-left:4px solid #d9a400;padding:10px 12px;border-radius:8px;font-size:.9rem}
   .tip b{color:#8a5a00}
+  .airfryer{background:#fdeee2;border-left:4px solid #c2691c;padding:11px 13px;border-radius:8px;font-size:.9rem;line-height:1.55;margin-bottom:12px}
+  .airfryer b{color:#9c4e10}
   .chef{background:var(--accent-soft);border-left:4px solid var(--accent);padding:11px 13px;border-radius:8px;font-size:.9rem;line-height:1.55;margin-bottom:12px}
   .chef b{color:var(--accent)}
 
@@ -666,11 +668,12 @@ const RECIPES = [
  tip:"A 10-minute lunch from the storecupboard."},
 
 {id:"f6", cat:"fish", title:"Cod & Potato Fishcakes with Lemon Mayo", tags:["Freezer","Batch"], serves:4, prep:"15 min", cook:"15 min",
- intro:"Crisp-coated fishcakes packed with flaky cod, herbs and mash, with a quick lemon mayo.",
- ing:["400 g cod","300 g mashed potato","1 egg","Dill, parsley and chives","GF flour, to coat","Butter, to fry","Mayo + lemon, to serve"],
- steps:["Poach or bake the cod, then flake into the mash with the herbs and a little egg.","Shape into cakes, chill briefly, then coat in GF flour.","Fry in butter until golden both sides; serve with lemon mayo."],
- advanced:"Chilling the shaped cakes for 20 minutes firms them up so they hold together and crisp rather than collapsing in the pan.",
- tip:"Open-freeze raw, then bag — cook from frozen."},
+ intro:"Crisp-coated fishcakes packed with flaky cod, herbs and buttery mash, with a quick lemon mayo — comforting, freezer-friendly and a brilliant way to get fish into a fussy eater.",
+ ing:["400 g cod fillet, skinless","300 g cold mashed potato","1 egg, beaten, plus 1 extra for coating","Small handful dill, parsley and chives, chopped","Zest of ½ lemon","4 tbsp GF flour, for coating","6 tbsp GF breadcrumbs, for coating","Salt and pepper","Butter or oil, to cook","To serve: mayo mixed with lemon juice and zest"],
+ steps:["Poach or bake the cod for 8–10 minutes until it flakes, then drain well and let it cool slightly.","Flake the cod into the cold mash, add the chopped herbs, lemon zest, 1 beaten egg, salt and pepper, and fold together gently — don't overwork it or the cakes turn heavy.","Shape into 8 cakes about 2 cm thick, then chill for 20 minutes to firm up.","Set out three plates: GF flour, the second beaten egg, and the GF breadcrumbs. Coat each cake in flour, then egg, then crumbs, pressing them on.","Cook in a little butter or oil over medium heat for 3–4 minutes each side, until deep golden and hot through.","Stir a little lemon juice and zest into the mayo and serve alongside."],
+ advanced:"Chilling the shaped cakes for 20 minutes, and again after crumbing if you have time, firms them up so they hold together and crisp rather than collapsing as they cook. Make sure the mash is properly cold and not too wet to start.",
+ tip:"Open-freeze the crumbed raw cakes on a tray, then bag — cook from frozen, adding a few extra minutes.",
+ airfryer:"Brush or spray the crumbed cakes lightly with oil on both sides, then air-fry at 190°C for 12–14 minutes, turning once halfway, until deep golden and crisp. From frozen, add 4–5 minutes. Don't crowd the basket — cook in one layer so they crisp evenly."},
 
 {id:"f7", cat:"fish", title:"Salmon en Papillote with Dill, Lemon & Courgette", tags:["One-pan"], serves:2, prep:"8 min", cook:"15 min",
  intro:"Salmon steamed in its own fragrant paper parcel with courgette ribbons, lemon and dill.",
@@ -786,18 +789,20 @@ const RECIPES = [
  tip:"Baby spinach is a great low-FODMAP green to keep in."},
 
 {id:"c6", cat:"chicken", title:"Golden Chicken Schnitzel with Lemon", tags:["Kid-easy"], serves:2, prep:"10 min", cook:"12 min",
- intro:"Thin, crisp GF-crumbed chicken fried in butter until shatteringly golden.",
- ing:["2 chicken breasts, flattened","1 egg","GF breadcrumbs","Butter + oil, to fry","Lemon"],
- steps:["Pound the chicken thin between sheets of paper.","Coat in seasoned egg then GF crumbs, pressing them on.","Shallow-fry in butter and oil until deep gold both sides; serve with lemon."],
- advanced:"Pounding the chicken to an even thinness means it cooks through in the time it takes the crumb to turn golden — so it stays juicy.",
- tip:"A little oil with the butter stops it burning at frying heat."},
+ intro:"Thin, shatteringly crisp GF-crumbed chicken, golden from the pan and brightened with a squeeze of lemon — a guaranteed crowd-pleaser that cooks in minutes.",
+ ing:["2 chicken breasts, butterflied and flattened thin","4 tbsp GF flour","1 egg, beaten","6 tbsp GF breadcrumbs","Salt and pepper","Butter and a little oil, to fry","Lemon wedges, to serve"],
+ steps:["Place each breast between two sheets of paper and pound with a rolling pin to an even thickness of about 1 cm.","Set out three plates: seasoned GF flour, the beaten egg, and the GF breadcrumbs.","Dip each piece in flour, then egg, then crumbs, pressing the crumbs on firmly to coat all over.","Heat a good knob of butter with a little oil in a wide pan over medium-high heat until foaming.","Shallow-fry the schnitzels for 3–4 minutes each side, until deep gold and cooked through.","Drain briefly on paper, season with salt and serve at once with lemon wedges."],
+ advanced:"Pounding the chicken to an even thinness means it cooks through in the time it takes the crumb to turn golden, so it stays juicy. A little oil with the butter raises the burning point so you get colour without the butter scorching.",
+ tip:"Lovely with buttered potatoes or a lemony salad. Press the crumbs on firmly and chill for 10 minutes if you have time, so the coating stays put.",
+ airfryer:"Spray both sides of the crumbed schnitzels generously with oil — this is what makes the crumb go golden rather than dry and pale. Air-fry at 190°C for 10–12 minutes, flipping halfway, until crisp and cooked through. Cook one at a time if your basket is small, rather than overlapping them."},
 
 {id:"c7", cat:"chicken", title:"Herb & Lemon Chicken Skewers", tags:["One-pan"], serves:2, prep:"10 min", cook:"12 min",
- intro:"Charred, herb-marinated chicken skewers, bright with lemon and oregano.",
- ing:["2 chicken breasts, cubed","Olive oil","Lemon","Oregano and thyme","Salt"],
- steps:["Toss the chicken in oil, lemon and herbs and leave 30 min.","Thread onto skewers.","Griddle or grill over high heat, turning, until charred and just cooked."],
- advanced:"Pat the marinated chicken just-dry and use high, direct heat so it chars and caramelises rather than stewing in its juices.",
- tip:"Lovely with lemon rice or a Greek salad."},
+ intro:"Charred, herb-marinated chicken skewers, bright with lemon and oregano — simple, summery and just as good from the air fryer as the grill.",
+ ing:["2 chicken breasts, cut into 3 cm cubes","2 tbsp olive oil","Juice and zest of 1 lemon","1 tsp dried oregano, plus fresh thyme","Salt and black pepper","Skewers (soak wooden ones in water first)"],
+ steps:["In a bowl, mix the oil, lemon juice and zest, oregano, thyme, salt and pepper.","Add the chicken cubes, toss to coat and leave to marinate for at least 30 minutes, or up to a few hours in the fridge.","Thread the chicken onto skewers, not too tightly packed, so the heat can get between the pieces.","Pat the surface just-dry, then griddle or grill over high, direct heat, turning every couple of minutes, for 10–12 minutes until charred at the edges and cooked through.","Rest for a couple of minutes, then serve with lemon to squeeze over."],
+ advanced:"Pat the marinated chicken just-dry and use high, direct heat so it chars and caramelises rather than stewing in its own juices. Leaving a little space between the cubes on the skewer helps them colour rather than steam.",
+ tip:"Lovely with lemon rice or a Greek salad. Don't marinate much longer than a few hours, as the lemon juice can start to make the surface mushy.",
+ airfryer:"Use short skewers that fit the basket, or just cook the marinated cubes loose. Air-fry at 200°C for 10–12 minutes, shaking or turning halfway, until lightly charred and cooked through (75°C). Spread in a single layer so they brown instead of steaming."},
 
 {id:"c8", cat:"chicken", title:"Chicken, New Potato & Rosemary Traybake", tags:["One-pan","Batch"], serves:4, prep:"10 min", cook:"40 min",
  intro:"Everything roasted on one tray until the chicken is golden and the potatoes crisp in its juices.",
@@ -828,11 +833,12 @@ const RECIPES = [
  tip:"Shop curry powder usually hides onion and garlic — turmeric and ginger keep it safe."},
 
 {id:"c12", cat:"chicken", title:"Lemon-Thyme Roast Drumsticks", tags:["Batch"], serves:4, prep:"5 min", cook:"40 min",
- intro:"Sticky, golden drumsticks roasted with lemon, thyme and paprika — great hot or cold.",
- ing:["8 chicken drumsticks","Olive oil","Lemon","Thyme","Sweet paprika","Salt"],
- steps:["Coat the drumsticks in oil, lemon, thyme and paprika.","Roast at 200°C for 35–40 min, turning once, until glossy and cooked through."],
- advanced:"Turning them halfway and basting in the pan juices gives an even, lacquered finish all over.",
- tip:"Perfect cold for lunchboxes and picnics."},
+ intro:"Sticky, golden drumsticks roasted with lemon, thyme and sweet paprika — brilliant hot for supper or cold for lunchboxes and picnics.",
+ ing:["8 chicken drumsticks","2 tbsp olive oil","Juice and zest of 1 lemon","Leaves from several sprigs thyme","1 tsp sweet paprika","Salt and black pepper"],
+ steps:["Pat the drumsticks dry and put them in a bowl with the oil, lemon juice and zest, thyme, paprika, salt and pepper; turn to coat well.","Heat the oven to 200°C (fan 180°C) and arrange the drumsticks in a single layer in a roasting tin.","Roast for 35–40 minutes, turning once and basting in the pan juices halfway, until glossy, deep golden and cooked through (75°C at the bone).","Rest for a few minutes before serving, or cool completely for lunchboxes."],
+ advanced:"Turning them halfway and basting in the pan juices gives an even, lacquered finish all over. Drying the skin before coating helps it crisp rather than steam.",
+ tip:"Perfect cold for lunchboxes and picnics. Sweet (not hot) paprika keeps them within the rules.",
+ airfryer:"Air-fry at 200°C for 22–26 minutes, turning two or three times, until the skin is crisp and the juices run clear (75°C at the bone). Arrange in a single layer with a little space between them, cooking in two batches if needed rather than piling them in."},
 
 {id:"c13", cat:"chicken", title:"Chicken & Courgette Skewers with Lemon", tags:["One-pan"], serves:2, prep:"10 min", cook:"12 min",
  intro:"Juicy chicken and charred courgette skewers brushed with lemony herb oil.",
@@ -849,11 +855,12 @@ const RECIPES = [
  tip:"Chives and garlic-infused oil replace the usual onion and garlic."},
 
 {id:"c15", cat:"chicken", title:"Sticky Maple-Mustard Chicken Thighs", tags:["One-pan"], serves:4, prep:"10 min", cook:"35 min",
- intro:"Burnished thighs glazed in a sweet-sharp maple and mustard pan sauce.",
- ing:["6 chicken thighs","2 tbsp maple syrup","1 tbsp mild mustard","1 tbsp olive oil","Thyme","Salt","Lemon"],
- steps:["Coat the thighs in maple, mustard, oil, thyme and salt and leave 15 min.","Roast at 200°C for 30–35 min, basting once, until sticky and deep gold.","Finish with a squeeze of lemon to cut the sweetness."],
- advanced:"Basting in the last 10 minutes builds up a lacquered glaze — and the lemon at the end stops it tasting cloying.",
- tip:"Maple keeps it low-FODMAP where honey would not; check the mustard is onion/garlic-free."},
+ intro:"Burnished, sticky thighs glazed in a sweet-sharp maple and mustard sauce, finished with a squeeze of lemon to keep it from cloying.",
+ ing:["6 chicken thighs, bone-in and skin-on","2 tbsp maple syrup","1 tbsp mild mustard (check it's onion- and garlic-free)","1 tbsp olive oil","Leaves from a few sprigs thyme","Salt and black pepper","½ lemon"],
+ steps:["Mix the maple, mustard, oil, thyme, salt and pepper in a bowl, add the thighs and turn to coat; leave to marinate for 15 minutes.","Heat the oven to 200°C (fan 180°C) and sit the thighs skin-side up in a roasting tin.","Roast for 30–35 minutes, spooning the pan glaze over them once or twice in the last 10 minutes, until sticky, lacquered and deep gold (75°C).","Finish with a squeeze of lemon to cut the sweetness, and spoon the pan juices over to serve."],
+ advanced:"Basting in the last 10 minutes builds up a lacquered glaze, and the lemon at the end stops it tasting cloying. Keep the skin up and exposed so the sugars in the maple caramelise rather than stew.",
+ tip:"Maple keeps it low-FODMAP where honey would not, and check the mustard is onion- and garlic-free.",
+ airfryer:"Air-fry skin-side up at 190°C for 22–26 minutes, until deep gold and cooked through (75°C), brushing with the glaze for the last 5 minutes — watch closely, as the maple can catch and burn quickly. Cook in a single layer so the glaze caramelises."},
 
 {id:"c16", cat:"chicken", title:"Chicken & Spinach Rice Gratin", tags:["Batch"], serves:4, prep:"10 min", cook:"20 min",
  intro:"A creamy, golden-topped bake that turns leftover chicken and rice into something moreish.",
@@ -970,11 +977,12 @@ const RECIPES = [
  tip:"Endlessly adaptable from the safe list."},
 
 {id:"p6", cat:"potato", title:"Paprika Wedges with Chive Soured Cream", tags:["Batch"], serves:3, prep:"5 min", cook:"35 min",
- intro:"Crunchy paprika wedges with a cooling chive soured-cream dip.",
- ing:["4 potatoes, in wedges","Olive oil","Sweet paprika","Salt","Soured cream + chives, to dip"],
- steps:["Toss the wedges in oil, paprika and salt.","Roast at 200°C for 30–35 min, turning once, until crisp.","Serve with soured cream rippled with chives."],
- advanced:"Spread the wedges out with space between them so they crisp rather than steam against each other.",
- tip:"Sweet paprika only — no chilli."},
+ intro:"Crunchy, golden paprika potato wedges with a cooling chive soured-cream dip — a proper treat that happens to be naturally gluten-free.",
+ ing:["4 medium potatoes, cut into wedges","2 tbsp olive oil","1–2 tsp sweet paprika","Salt and black pepper","To dip: 4 tbsp soured cream rippled with snipped chives and a squeeze of lemon"],
+ steps:["Heat the oven to 200°C (fan 180°C). For extra-fluffy insides, parboil the wedges for 5 minutes and drain well (optional but worth it).","Toss the wedges in the oil, paprika, salt and pepper until evenly coated.","Spread out on a baking tray in a single layer, skin-side down where you can, with space between them.","Roast for 30–35 minutes, turning once, until deep golden and crisp at the edges.","Stir the chives and a little lemon into the soured cream and serve alongside for dipping."],
+ advanced:"Spread the wedges out with space between them so they crisp rather than steam against each other. A quick parboil first gives a fluffier middle under the crisp crust.",
+ tip:"Sweet paprika only — no chilli. A little smoked paprika alongside the sweet adds a lovely depth.",
+ airfryer:"Air-fry the coated wedges at 190°C for 18–22 minutes, shaking the basket two or three times, until crisp and golden. Cook in a single layer, in batches if needed — a crowded basket steams them soft. Parboiling first isn't necessary in the air fryer."},
 
 {id:"p7", cat:"potato", title:"Dill & Caper Potato Salad", tags:["No-cook","Batch"], serves:4, prep:"10 min", cook:"18 min",
  intro:"A sharp, herby potato salad with dill, capers and lemon — no onion in sight.",
@@ -984,18 +992,20 @@ const RECIPES = [
  tip:"Capers and chives give all the savoury punch onion usually would."},
 
 {id:"p8", cat:"potato", title:"Parmesan Hasselback Potatoes", tags:["Batch"], serves:4, prep:"10 min", cook:"50 min",
- intro:"Fanned, crisp-edged potatoes with soft middles and a parmesan finish.",
- ing:["4 potatoes","Butter","Olive oil","Thyme","Parmesan","Salt"],
- steps:["Slice each potato thinly without cutting all the way through (rest it in a spoon to stop the knife).","Brush with butter, oil and thyme and roast at 200°C for 40 min.","Add parmesan for the last 10 minutes until crisp."],
- advanced:"Brushing oil down into the cuts halfway through roasting fans the slices open so the edges crisp like crisps.",
- tip:"A showstopper side — crispy edges, fluffy middle."},
+ intro:"Fanned potatoes with crisp, frilly edges and soft, buttery middles, finished with melted parmesan — a showstopping side that's mostly hands-off.",
+ ing:["4 medium potatoes","30 g butter, melted","1 tbsp olive oil","Leaves from a few sprigs thyme","Handful grated parmesan","Salt and black pepper"],
+ steps:["Heat the oven to 200°C (fan 180°C). Sit each potato in the bowl of a wooden spoon and slice across thinly at 3–4 mm intervals, letting the spoon stop the knife before it cuts all the way through.","Place on a tray, brush all over with the melted butter and oil, working a little down into the cuts, and season well.","Roast for 30 minutes, then brush again, easing the slices apart, and scatter with thyme.","Roast for another 15–20 minutes, until the edges are crisp and fanned and the centres are tender.","Scatter the parmesan over and return for a final 8–10 minutes, until melted and golden."],
+ advanced:"Brushing oil down into the cuts, and again halfway through, fans the slices open so the edges crisp like crisps while the middle stays fluffy. Slicing them as thinly and evenly as you can gives the most frills.",
+ tip:"A showstopper side — crispy edges, fluffy middle. Smaller, even-sized potatoes cook through more reliably.",
+ airfryer:"Air-fry the buttered, sliced potatoes at 180°C for 30–35 minutes, until fanned and tender, brushing once more halfway. Add the parmesan for the last 5–6 minutes until golden. Smaller potatoes work best, so they cook through before the edges over-darken."},
 
 {id:"p9", cat:"potato", title:"Cheese & Chive Potato Croquettes", tags:["Freezer"], serves:3, prep:"15 min", cook:"12 min",
- intro:"Crisp-crumbed croquettes with a soft, cheesy, chive-flecked centre.",
- ing:["Mashed potato","Handful grated cheese","1 egg","GF breadcrumbs","Chives","Oil, to fry"],
- steps:["Mix the cold mash with cheese and chives, then shape into logs.","Coat in egg and GF crumbs and chill briefly.","Fry until golden and crisp all over."],
- advanced:"Cold, firm mash and a spell in the fridge after crumbing keep the croquettes from bursting in the oil.",
- tip:"A tasty way to use up leftover mash."},
+ intro:"Crisp-crumbed croquettes with a soft, cheesy, chive-flecked centre — a brilliant way to turn leftover mash into something everyone fights over.",
+ ing:["400 g cold mashed potato (firm, not loose)","1 good handful grated cheese","1 egg, beaten, plus 1 extra for coating","Small handful chives, snipped","4 tbsp GF flour, for coating","6 tbsp GF breadcrumbs, for coating","Salt and pepper","Oil, to cook"],
+ steps:["Mix the cold mash with the cheese, chives, 1 beaten egg, salt and pepper until well combined.","Shape into 9–10 short logs or barrels, pressing them firm.","Set out flour, the second beaten egg, and the GF breadcrumbs, then coat each croquette in flour, then egg, then crumbs.","Chill the crumbed croquettes for at least 20 minutes so they hold their shape.","Shallow-fry in hot oil, turning, for 4–5 minutes until golden and crisp all over, or cook in the air fryer (below).","Drain briefly and serve hot."],
+ advanced:"Cold, firm mash and a spell in the fridge after crumbing keep the croquettes from bursting open as they cook. If the mash is too soft, chill it longer or work in a spoon of GF flour.",
+ tip:"A tasty way to use up leftover mash. They freeze well crumbed and raw — cook from frozen.",
+ airfryer:"Spray the crumbed croquettes all over with oil and air-fry at 200°C for 12–14 minutes, turning once, until golden and crisp. From frozen, add 4–5 minutes. Keep them in a single layer so all sides crisp."},
 
 {id:"p10", cat:"potato", title:"Greek Lemon Roast Potatoes", tags:["Batch"], serves:4, prep:"8 min", cook:"45 min",
  intro:"Potatoes roasted in lemon, oregano and stock until soft and tangy within, golden on top.",
@@ -1205,11 +1215,12 @@ const RECIPES = [
  tip:"Light, fresh and naturally low-carb."},
 
 {id:"k5", cat:"snacks", title:"Smoked-Paprika Roast Potato Bites", tags:["Batch"], serves:3, prep:"5 min", cook:"30 min",
- intro:"Crunchy little roast potatoes dusted in smoked paprika — addictive with the chive dip.",
- ing:["Baby potatoes","Olive oil","Sweet smoked paprika","Flaky salt"],
- steps:["Boil the baby potatoes until just tender, then lightly crush each one.","Toss in oil and smoked paprika and roast at 200°C until crisp.","Finish with flaky salt."],
- advanced:"Crushing the parboiled potatoes before roasting creates craggy, crisp edges all over.",
- tip:"Serve with the whipped chive dip."},
+ intro:"Crunchy little crushed potatoes dusted in sweet smoked paprika — craggy, crisp and dangerously addictive with the whipped chive dip.",
+ ing:["500 g baby potatoes","2 tbsp olive oil","1 tsp sweet smoked paprika","Flaky salt and black pepper"],
+ steps:["Boil the baby potatoes in salted water for 12–15 minutes, until tender, then drain well and steam-dry for a minute.","Tip onto an oiled tray and lightly crush each one with the base of a glass or a fork, so it splits and flattens but stays in one piece.","Heat the oven to 200°C (fan 180°C). Drizzle the potatoes with the oil, scatter over the smoked paprika and turn gently to coat.","Roast for 25–30 minutes, until deep golden and crisp at the craggy edges.","Finish with flaky salt and a grind of pepper, and serve hot."],
+ advanced:"Crushing the parboiled potatoes before roasting creates lots of craggy, crisp edges, and steam-drying them first means the oil crisps the surface instead of being soaked up by surface water.",
+ tip:"Serve with the whipped chive dip. Sweet smoked paprika gives all the smokiness with no chilli heat.",
+ airfryer:"Crush the boiled potatoes, coat in oil and paprika, then air-fry at 200°C for 15–18 minutes, shaking once or twice, until crisp and golden. Spread in a single layer so the edges crisp rather than steam."},
 
 {id:"k6", cat:"snacks", title:"Herbed Ricotta on Rice Crackers", tags:["No-cook","15-min"], serves:2, prep:"6 min", cook:"—",
  intro:"Creamy lemon-herb ricotta on crisp rice crackers — a five-minute, dinner-party-worthy bite.",
@@ -1219,11 +1230,12 @@ const RECIPES = [
  tip:"Top with a few cherry tomatoes or cucumber for colour."},
 
 {id:"k7", cat:"snacks", title:"GF Cheese Straws", tags:["Batch"], serves:6, prep:"15 min", cook:"15 min",
- intro:"Crisp, cheesy, twisted straws — far better than any shop-bought GF snack.",
- ing:["150 g GF plain flour","75 g cold butter","75 g grated mature cheese","1 egg yolk","Pinch of salt","A little cold water"],
- steps:["Rub the cold butter into the flour and salt, then stir in the cheese and yolk with a little water to a dough.","Roll out, cut into strips and twist each one.","Bake at 190°C for 12–15 min until golden and crisp."],
- advanced:"Keeping the butter cold and handling the dough lightly gives a shorter, crisper straw — over-worked dough bakes tough.",
- tip:"A sharp, mature cheese gives the best flavour."},
+ intro:"Crisp, cheesy, twisted straws — far better than any shop-bought GF snack, and made from a simple cold-butter dough.",
+ ing:["150 g GF plain flour, plus extra for rolling","75 g cold butter, diced","75 g mature cheese, finely grated","1 egg yolk","Pinch of salt","1–2 tbsp cold water","A little beaten egg, to glaze"],
+ steps:["Rub the cold butter into the flour and salt with your fingertips until it looks like coarse breadcrumbs.","Stir in the grated cheese and egg yolk, then add just enough cold water to bring it into a firm dough; don't overwork it.","Wrap and chill for 15 minutes, then roll out on a floured surface to about 5 mm thick.","Cut into strips about 1.5 cm wide, twist each one a few times and lay on a lined tray, pressing the ends down.","Brush with a little beaten egg and bake at 190°C (fan 170°C) for 12–15 minutes, until golden and crisp.","Cool on the tray for a few minutes to firm up before lifting off."],
+ advanced:"Keeping the butter cold and handling the dough lightly gives a shorter, crisper straw — over-worked or warm dough bakes tough and greasy. Chilling the cut straws before baking helps them hold their twist.",
+ tip:"A sharp, mature cheese gives the best flavour; a little grated parmesan in the mix adds extra savour.",
+ airfryer:"Bake the twisted straws on a lined air-fryer tray at 170°C for 8–10 minutes, until golden and crisp — check early, as they colour faster than in the oven. Cook in a single layer with space between them, in batches if needed."},
 
 /* ---------- SWEET ---------- */
 {id:"d1", cat:"sweet", title:"Baked Vanilla Rice Pudding", tags:["Batch"], serves:4, prep:"5 min", cook:"90 min",
@@ -2413,6 +2425,7 @@ function openDetail(id){
       <h3>Method</h3>
       <ol>${r.steps.map(s=>`<li>${s}</li>`).join("")}</ol>
     </div>
+    ${r.airfryer?`<div class="airfryer"><b>🔥 Air fryer:</b> ${r.airfryer}</div>`:""}
     ${r.advanced?`<div class="chef"><b>👨‍🍳 Chef's technique:</b> ${r.advanced}</div>`:""}
     ${r.tip?`<div class="tip"><b>💡 Tip:</b> ${r.tip}</div>`:""}
   `;
